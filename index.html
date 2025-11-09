@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портфолио Ибрагимова</title>
-  <style>
-    body { font-family: Arial; text-align: center; background: #f2f2f2; padding: 40px; }
-    h1 { color: #333; }
-    p { color: #555; }
-    img { border-radius: 50%; width: 150px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио — Ибрагимов Хожакбар </title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Привет! 👋 Я Ибрагимов Хожакбар</h1>
-  <img src="https://avatars.githubusercontent.com/u/your_username" alt="Фото">
-  <p>Я начинающий программист. Люблю создавать сайты и учусь новым технологиям.</p>
+  <header>
+    <nav>
+      <h1 class="logo">Ibrohimov <span>FX</span></h1>
+      <ul class="menu">
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="content">
+      <h2>Привет! 👋<br>Я <span>Ибрагимов Жахон Акбар</span></h2>
+      <p>Frontend-разработчик и трейдер 💻📈</p>
+      <a href="#projects" class="btn">Мои работы</a>
+    </div>
+    <img src="myphoto.jpg" alt="Моё фото" class="hero-img">
+  </section>
+
+  <section id="about">
+    <h2>Обо мне</h2>
+    <p>
+      Я начинающий веб-разработчик с интересом к созданию сайтов и интерфейсов.
+      Люблю простоту, скорость и современные технологии. Также занимаюсь трейдингом и обучением аналитике рынка.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Мои проекты</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>🌐 Landing Page</h3>
+        <p>Современный лендинг с адаптивным дизайном.</p>
+        <a href="#" target="_blank">Посмотреть</a>
+      </div>
+      <div class="card">
+        <h3>📊 Crypto Dashboard</h3>
+        <p>Панель для отслеживания криптовалютных данных в реальном времени.</p>
+        <a href="#" target="_blank">Посмотреть</a>
+      </div>
+      <div class="card">
+        <h3>🎓 FX Course</h3>
+        <p>Сайт курса по трейдингу с простым интерфейсом.</p>
+        <a href="#" target="_blank">Посмотреть</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Связаться со мной</h2>
+    <p>📩 Telegram: <a href="https://t.me/your_username">Ibrogimov_00</a></p>
+    <p>📧 Email: ibragimxojakbar@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Ibrohimov FX. Все права защищены.</p>
+  </footer>
 </body>
 </html>
